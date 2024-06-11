@@ -10,10 +10,13 @@
 <body>
     <h1>GruhaSeva React Native App</h1>
 
+    <h2>Welcome</h2>
+
     <p>Welcome to GruhaSeva, a home service application built with React Native and Expo.</p>
 
     <h2>Prerequisites</h2>
 
+    <h3>Node.js and Expo CLI</h3>
     <p>Before you begin, ensure you have met the following requirements:</p>
 
     <ul>
@@ -28,7 +31,7 @@
 
     <h2>Installation</h2>
 
-    <p>To set up the project locally, follow these steps:</p>
+    <h3>Setting up the Project</h3>
 
     <ol>
         <li><strong>Clone the repository</strong>:</li>
@@ -46,6 +49,8 @@
     </code></pre>
 
     <h2>Running the App</h2>
+
+    <h3>Commands</h3>
 
     <p>To run the app, you can use one of the following commands:</p>
 
@@ -79,6 +84,8 @@
 
     <h2>Project Structure</h2>
 
+    <h3>Overview</h3>
+
     <p>Here's a brief overview of the project structure:</p>
 
     <pre><code>home-service-app/
@@ -92,6 +99,8 @@
     </code></pre>
 
     <h2>Troubleshooting</h2>
+
+    <h3>Steps</h3>
 
     <p>If you encounter any issues, try the following:</p>
 
@@ -119,7 +128,7 @@ npm install
 
     <h2>Contributing</h2>
 
-    <p>If you want to contribute to this project, please follow these steps:</p>
+    <h3>Steps to Contribute</h3>
 
     <ol>
         <li><strong>Fork the project</strong></li>
@@ -131,7 +140,10 @@ npm install
 
     <h2>License</h2>
 
+    <h3>MIT License</h3>
+
     <p>This project is licensed under the MIT License.</p>
 </body>
 
 </html>
+
