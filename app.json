@@ -15,13 +15,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.homeserviceapp",
+      "buildNumber": "1.0.0",
+      "scheme": "homeserviceapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "scheme": "homeserviceapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
