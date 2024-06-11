@@ -46,5 +46,5 @@ If you encounter any issues, try the following:
 
 
 
-<h1>As GruhaSeva evolves, we are committed to enhancing the home service experience and setting new benchmarks in customer satisfaction. Thank you for your continued support!<h1/>
+<h3>As GruhaSeva evolves, we are committed to enhancing the home service experience and setting new benchmarks in customer satisfaction. Thank you for your continued support!<h3/>
 
