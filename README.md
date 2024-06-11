@@ -1,4 +1,4 @@
-# GruhaSeva App
+<h1>GruhaSeva App</h1> 
 
 Welcome to GruhaSeva, a home service application built with React Native and Expo!
 
