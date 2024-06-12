@@ -1,8 +1,7 @@
 import { request, gql } from "graphql-request";
 
-const MASTER_URL =
-//    "https://api-ap-south-1.hygraph.com/v2/clxaax024009s08uut2m0ci6m/master";
-  "https://ap-south-1.cdn.hygraph.com/content/cls7a1tdm0w7a01w4jy7f9puo/master";
+const MASTER_URL = "https://ap-south-1.cdn.hygraph.com/content/clxaax024009s08uut2m0ci6m/master";
+//  "https://ap-south-1.cdn.hygraph.com/content/cls7a1tdm0w7a01w4jy7f9puo/master";
 
 const getSlider = async () => {
   const query = gql`

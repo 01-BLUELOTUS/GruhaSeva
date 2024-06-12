@@ -60,7 +60,7 @@ export default function BookingModal({ businessId, closeModal }) {
       userName: user?.fullName,
       userEmail: user?.primaryEmailAddress.emailAddress,
       time: selectedTime,
-      date: selectedDate, //moment(selecteddate).format('DD-MM-YYYY'),
+      date: selectedDate,
       note: note,
       businessId: businessId,
     };
