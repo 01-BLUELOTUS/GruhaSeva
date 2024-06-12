@@ -1,101 +1,87 @@
-<<<<<<< HEAD
-<h1>GruhaSeva App</h1> 
+<!DOCTYPE html>
+<html lang="en">
 
-Welcome to GruhaSeva, a home service application built with React Native and Expo!
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GruhaSeva React Native App</title>
+</head>
 
-## Prerequisites: 
+<body>
+    <h1>GruhaSeva React Native App</h1>
 
-Before you begin, ensure you have met the following requirements:
+    <p>Welcome to GruhaSeva, a home service application built with React Native and Expo.</p>
 
-**Node.js and Expo CLI**
-- **Node.js**: Install the latest version of Node.js from nodejs.org.
-- **Expo CLI**: Install Expo CLI globally using npm: *"npm install -g expo-cli"*
-- **Android Studio/Xcode:**: For running the app on an Android emulator or iOS simulator, ensure you have Android Studio or Xcode installed.
+    <h2>Prerequisites</h2>
 
+    <p>Before you begin, ensure you have met the following requirements:</p>
 
-## Installation:
+    <ul>
+        <li><strong>Node.js</strong>: Install the latest version of Node.js from <a href="https://nodejs.org/">nodejs.org</a>.</li>
+        <li><strong>Expo CLI</strong>: Install Expo CLI globally using npm:</li>
+    </ul>
 
-To set up the project locally, follow these steps:
+    <pre><code>npm install -g expo-cli
+    </code></pre>
 
-**Setting up the Project**
+    <p><strong>Android Studio/Xcode</strong>: For running the app on an Android emulator or iOS simulator, ensure you have Android Studio or Xcode installed.</p>
 
-- **Clone the repository**: 
- *"git clone https://github.com/01-BLUELOTUS/GruhaSeva.git"*  then *"cd GruhaSeva"*
+    <h2>Installation</h2>
 
-- **Install dependencies**: *"npm install"*
+    <p>To set up the project locally, follow these steps:</p>
 
+    <ol>
+        <li><strong>Clone the repository</strong>:</li>
+    </ol>
 
-## Running the App:
+    <pre><code>git clone https://github.com/01-BLUELOTUS/GruhaSeva.git
+    cd GruhaSeva
+    </code></pre>
 
-To run the app, you can use one of the following commands:
+    <ol start="2">
+        <li><strong>Install dependencies</strong>:</li>
+    </ol>
 
-- **Commands**: Start the development server: *"npm start"*
-- **Run on Android emulator/device**: *"npm run android"*
-- **Run on iOS simulator/device**: *"npm run ios"*
-- **Run on web**: *"npm run web"*
+    <pre><code>npm install
+    </code></pre>
 
-=======
-#GruhaSeva React Native App
+    <h2>Running the App</h2>
 
-GruhaSeva is a home service application built with React Native and Expo.
+    <p>To run the app, you can use one of the following commands:</p>
 
-## Prerequisites
+    <ul>
+        <li><strong>Start the development server</strong>:</li>
+    </ul>
 
-Before you begin, ensure you have met the following requirements:
+    <pre><code>npm start
+    </code></pre>
 
-- **Node.js**: Install the latest version of Node.js from [nodejs.org](https://nodejs.org/).
-- **Expo CLI**: Install Expo CLI globally using npm:
-  ```sh
-  npm install -g expo-cli
-  ```
-- **Android Studio/Xcode**: For running the app on an Android emulator or iOS simulator, ensure you have Android Studio or Xcode installed.
+    <ul>
+        <li><strong>Run on Android emulator/device</strong>:</li>
+    </ul>
 
-## Installation
+    <pre><code>npm run android
+    </code></pre>
 
-To set up the project locally, follow these steps:
+    <ul>
+        <li><strong>Run on iOS simulator/device</strong>:</li>
+    </ul>
 
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/your-username/home-service-app.git
-   cd GruhaSeva
-   ```
+    <pre><code>npm run ios
+    </code></pre>
 
-2. **Install dependencies**:
-   ```sh
-   npm install
-   ```
+    <ul>
+        <li><strong>Run on web</strong>:</li>
+    </ul>
 
-## Running the App
+    <pre><code>npm run web
+    </code></pre>
 
-To run the app, you can use one of the following commands:
+    <h2>Project Structure</h2>
 
-- **Start the development server**:
-  ```sh
-  npm start
-  ```
+    <p>Here's a brief overview of the project structure:</p>
 
-- **Run on Android emulator/device**:
-  ```sh
-  npm run android
-  ```
-
-- **Run on iOS simulator/device**:
-  ```sh
-  npm run ios
-  ```
-
-- **Run on web**:
-  ```sh
-  npm run web
-  ```
-
-
-## Project Structure
-
-Here's a brief overview of the project structure:
-
-```
-home-service-app/
+    <pre><code>home-service-app/
 ├── assets/                # Asset files (images, fonts, etc.)
 ├── node_modules/          # Node.js modules
 ├── App.js                 # Main application component
@@ -103,55 +89,49 @@ home-service-app/
 ├── babel.config.js        # Babel configuration
 ├── package.json           # Project metadata and dependencies
 └── README.md              # Project documentation
-```
->>>>>>> 1a77b99 (Create README.md)
+    </code></pre>
 
-## Troubleshooting
+    <h2>Troubleshooting</h2>
 
-If you encounter any issues, try the following:
+    <p>If you encounter any issues, try the following:</p>
 
-<<<<<<< HEAD
-**Steps**
+    <ul>
+        <li><strong>Clear cache</strong>:</li>
+    </ul>
 
-- **Clear cache**: *"expo start -c"*
-- **Reinstall dependencies**: *"rm -rf node_modules"* then *"npm install"*
-- **Ensure correct Expo CLI version**: *"npm install -g expo-cli"*
+    <pre><code>expo start -c
+    </code></pre>
 
+    <ul>
+        <li><strong>Reinstall dependencies</strong>:</li>
+    </ul>
 
+    <pre><code>rm -rf node_modules
+npm install
+    </code></pre>
 
-<h3>As GruhaSeva evolves, we are committed to enhancing the home service experience and setting new benchmarks in customer satisfaction. Thank you for your continued support!<h3/>
+    <ul>
+        <li><strong>Ensure correct Expo CLI version</strong>:</li>
+    </ul>
 
-=======
-- **Clear cache**:
-  ```sh
-  expo start -c
-  ```
+    <pre><code>npm install -g expo-cli
+    </code></pre>
 
-- **Reinstall dependencies**:
-  ```sh
-  rm -rf node_modules
-  npm install
-  ```
+    <h2>Contributing</h2>
 
-- **Ensure correct Expo CLI version**:
-  ```sh
-  npm install -g expo-cli
-  ```
+    <p>If you want to contribute to this project, please follow these steps:</p>
 
-## Contributing
+    <ol>
+        <li><strong>Fork the project</strong></li>
+        <li><strong>Create a new branch</strong> (e.g., `git checkout -b feature/YourFeature`)</li>
+        <li><strong>Commit your changes</strong> (`git commit -m 'Add some feature'`)</li>
+        <li><strong>Push to the branch</strong> (`git push origin feature/YourFeature`)</li>
+        <li><strong>Open a Pull Request</strong></li>
+    </ol>
 
-If you want to contribute to this project, please follow these steps:
+    <h2>License</h2>
 
-1. Fork the project
-2. Create a new branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
+    <p>This project is licensed under the MIT License.</p>
+</body>
 
-## License
-
-This project is licensed under the MIT License.
-```
-
-Feel free to update this README file to better match your project's specifics and to add any additional information that might be relevant.
->>>>>>> 1a77b99 (Create README.md)
+</html>
